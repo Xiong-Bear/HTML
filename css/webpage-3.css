@@ -1,0 +1,104 @@
+@charset "utf-8";
+body {
+	margin: 0 150px;
+	padding: 0 20px auto 20px;
+	background:url(../images/heawen.jpg)no-repeat fixed ;
+	background-size:cover;
+}
+h1 {
+	text-align: center;
+	font-size: 70px;
+	text-shadow: 5px 6px 4px black;
+	color: dodgerblue;
+	letter-spacing: 35px;
+}
+td {
+	background: mistyrose;
+	border: 2px;
+	border-radius: 20px;
+	opacity: 0.6;
+	column-span: 10px;
+}
+#nav {
+	margin: 40px;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+/*nav {
+	border: dotted wheat 3px;
+	border-radius: 35px;
+}*/
+span {
+	padding: 45px;
+	font-size: 35px;
+}
+td:hover {
+	text-align: center;
+	font-size: 50px;
+	background: navy;
+	border: 2px solid lightseagreen;
+}
+#main {
+	text-indent: 2em;
+	font-family: "宋体";
+	padding: 20px;
+	text-align:left;
+	font-size: 17px;
+	border: outset 2px wheat;
+	border-radius:60px 20px;
+	height: 1050px;
+	width: 1150px;
+	margin: 20px;
+	line-height: 30px;
+	background: white;
+	opacity: 0.7;
+}
+.img1,.img2 {
+	width: 400px;
+	height: 300px;
+	border-radius: 35px;
+	opacity: 0.7;
+}
+.img1 {
+	margin: 35px;
+	padding: 20px;
+	float: left;
+}
+.img2 {
+	margin: 30px;
+	float: right;
+}
+img:hover {
+	opacity: 1;
+}
+.cite1 {
+	text-align: center;
+	font-size: 25px;
+	color: indigo;
+	background: linear-gradient(plum,darkorchid);
+	border-radius: 10px;
+}
+.cite {
+	font-size: 25px;
+	color: indigo;
+	background: linear-gradient(plum,darkorchid);
+	border-radius: 10px;
+}
+a {
+	color: darkviolet;
+	text-decoration: none;
+}
+a:link {
+	color:dodgerblue;
+}
+a:hover {
+	color: orangered;
+}
+#footer {
+	background: gray;
+	opacity: 0.8;
+	border-radius: 10px;
+	text-align: center;
+	color:lightgrey;
+}

@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+
+body {
+	margin: 0 150px;
+	background:url(../images/city.jpg) no-repeat fixed;
+	background-size:cover;
+	
+}
+h1 {
+	text-align: center;
+	font-size: 70px;
+	text-shadow: 5px 6px 4px black;
+	color: dodgerblue;
+	letter-spacing: 35px;
+}
+#nav {
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	/*background: url(../images/longway.jpg) no-repeat fixed;*/
+	
+	
+}
+span {
+	border: dotted wheat 3px;
+	border-radius: 10px;
+	background: mistyrose;
+	opacity: 0.9;
+	padding:0 45px;
+	font-size: 35px;
+}
+#p1,#p2 {
+	font-family: "宋体";
+	border: solid 2px beige;
+	border-radius: 35px;
+	float: center;
+	color:aliceblue;
+	padding: 20px;
+	margin: 10px auto;
+	width: 1150px;
+	height: 620px;
+	font-size: 17px;
+	font: "宋体";
+}
+img {
+	margin: 35px;
+	float: right;
+	opacity: 0.8;
+	border-radius: 35px;
+}
+img:hover {
+	opacity: 1;
+}
+P::first-letter{
+	font-size: 50px;
+	color: lightyellow;
+}
+a {
+	color:steelblue;
+	text-decoration: none;
+}
+
+a:visited {
+	/*color:darkviolet;*/
+}
+a:hover {
+	color: red;
+}
+span:hover {
+	background:turquoise;
+}
+#main div{
+	padding: 20px;
+}
+
+#footer {
+	text-align: center;
+	color:lightgrey;
+	background: grey;
+	opacity: 0.8;
+	border-radius: 10px;
+}

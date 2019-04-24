@@ -1,0 +1,90 @@
+@charset "utf-8";
+body {
+	margin: 0 120px;
+	padding: 15px;
+	background:url(../images/pc.jpg) fixed center ;
+	background-size:cover;
+	
+}
+h1 {
+	text-align: center;
+	font-size: 70px;
+	text-shadow: 5px 6px 4px black;
+	color: dodgerblue;
+	letter-spacing: 35px;
+}
+#nav {
+	color:blue;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	background: gray;
+	border-radius: 35px;
+	opacity:0.6; 
+}
+nav {
+	border: dotted wheat 3px;
+	border-radius: 35px;
+}
+span {
+	padding: 45px;
+	font-size: 35px;
+}
+#main {
+	padding: 20px;
+}
+a {
+	color: aqua;
+	text-decoration: none;
+}
+a:link {
+	color:dodgerblue;
+}
+a:hover {
+	color: orangered;
+}
+#p1,#p2 {
+	background: white;
+	border-radius: 35px;
+	opacity: 0.7;
+	font-family: "宋体";
+	padding: 20px;
+	text-align:left;
+	font-size: 17px;
+	border: dashed 4px wheat;
+	height: 500px;
+	width: 560px;
+	line-height: 30px;
+}
+P::first-letter{
+	font-size: 50px;
+	color: goldenrod;
+}
+#p1 {
+	float: left;
+	border-radius:0 35px;
+}
+#p2 {
+	float: right;
+	border-radius:35px 0;
+}
+#p3 {
+	font-family: "宋体";
+	background: white;
+	opacity: 0.7;
+	padding: 20px;
+	text-align:left;
+	font-size: 17px;
+	border: dashed 4px wheat;
+	height: 200px;
+	width: 1160px;
+	margin: 10px;
+	line-height: 30px;
+	border-radius: 50px 0;
+}
+#footer {
+	text-align: center;
+	background: grey;
+	opacity: 0.8;
+	border-radius: 10px;
+}

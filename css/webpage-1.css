@@ -1,0 +1,79 @@
+@charset "utf-8";
+body {
+	margin: 0 150px;
+	padding: 0 20px auto 20px;
+	background: url(../images/river.jpg) no-repeat fixed;
+	background-size: cover;
+}
+#top {
+	padding: 20px;
+}
+h1 {
+	text-align: center;
+	font-size: 70px;
+	text-shadow: 5px 6px 4px black;
+	color: dodgerblue;
+	letter-spacing: 35px;
+}
+#nav {
+	border-radius: 35px;
+	background: sandybrown;
+	opacity: 0.6;
+	color:blue;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	border: dotted wheat 3px;
+}
+span {
+	padding: 45px;
+	font-size: 35px;
+}
+#main {
+	margin: 20px;
+	
+}
+#main div {
+	padding: 20px;
+	text-align:left;
+	font-size: 17px;
+	border: dotted 4px wheat;
+	border-radius:35px;
+	height: 650px;
+	width: 500px;
+	margin: 20px;
+	line-height: 30px;
+	background: ivory;
+	opacity: 0.7;
+	background-clip: padding-box;
+}
+#p1,#p3 {
+	float:left;
+}
+#p2,#p4 {
+	float:right;
+}
+P::first-letter{
+	font-size: 50px;
+	color:dodgerblue;
+}
+a {
+	color: aqua;
+	text-decoration: none;
+}
+a:link {
+	color:dodgerblue;
+}
+a:hover {
+	color: orangered;
+}
+p {
+	font-family: "宋体";
+	color: black;
+	padding: 10px;
+}
+#footer {
+	text-align: center;
+	color: black;
+	
+}
